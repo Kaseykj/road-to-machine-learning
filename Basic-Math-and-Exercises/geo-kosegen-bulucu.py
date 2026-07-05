@@ -1,0 +1,8 @@
+print("==========")
+print("DIAGONAL LENGTH CALCULATOR")
+print(" d =  \u221A(a\u00B2 + b\u00B2)")
+print("==========")
+a = input("a = ")
+b = input("b = ")
+result = (float(a)**2 + float(b)**2)**(1/2)
+print(f"d = {result} ")
