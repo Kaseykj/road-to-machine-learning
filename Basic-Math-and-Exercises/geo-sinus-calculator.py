@@ -1,0 +1,8 @@
+print("==============")
+print("Triangle Area = \u00BD.b.c.sin(α) ")
+print("==============")
+b = input("b = ")
+c = input("c = ")
+sin = input(" 0=<sin(α)=<1 = ")
+area = float(b)*float(c)*float(sin)*(1/2)
+print(f"Area = {area}") 
